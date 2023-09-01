@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #area{
+            background-color: green;
+            color: white;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            line-height: 500px;
+            text-align: center;
+            font-size: 60px;
+
+        }
+    </style>
+</head>
+<body>
+    <!--<div id="area" onclick="clicar()" onmouseenter ="entrar()" onmouseout="sair()">
+        interaja.....
+    </div> aqui e a forma para eu monitorar os eventos em html-->
+    <div id="area">
+        interaja.....
+    </div>
+
+    <script>
+       var a = window.document.getElementById('area') /* aqui tenho que prestar a atencao por que criei uma variavel global que serviu para todas as funcoes*/
+        a.addEventListener('click',clicar)
+        a.addEventListener('mouseenter' , entrar)
+        a.addEventListener('mouseout', sair) // aqui vou moninorar os eventos no proprio javascritp
+
+        function clicar(){
+            
+            a.innerText = 'clicou!'
+            a.style.background = 'red'
+        }
+        function entrar(){
+            a.innerText = 'entrou!'
+        }
+        function sair(){
+            a.innerText = 'saiu!'
+            a.style.background = 'green'
+            
+        }
+    </script>
+    
+</body>
+</html>
