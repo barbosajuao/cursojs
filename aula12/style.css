@@ -1,0 +1,56 @@
+body{
+    width: 100vw;
+    height: 1050px;
+    background: linear-gradient( rgb(13, 5, 255), #0670c0,#0091ff );
+    color: white;
+}
+header{
+    text-align: center;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(205, 205, 205);
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(5, 5, 5);
+}
+footer{
+   
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+}
+.div1{
+    
+    color: rgb(0, 0, 0);
+}
+img{
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    
+}
+.res{
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    background-image: url(../aula10/imagens/menino.png);
+}
+/*.div2{
+    width: 350px;
+    height: 350px;
+    
+    background-size: 100% 100%;
+    border-radius: 100px;
+    margin-top: 100px;
+    margin-left: 80px;
+    
+   
+}*/
