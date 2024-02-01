@@ -9,7 +9,7 @@
             width: 200px;
             height: 40px;
             margin: auto;
-            text-align: center;
+            
             background-color: white;
             
         }
@@ -32,6 +32,10 @@
          #n15{
             margin-bottom: 50px;
         }
+        p{
+            margin: 0px;
+            padding-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -48,6 +52,7 @@
     </div>
     
     <script>
+
         function somar(){
             var tn1 = window.document.getElementById('txtn1')
             var tn2 = window.document.querySelector('input#txtn2')
@@ -56,8 +61,11 @@
             var n2 = Number(tn2.value)
             var s = n1 + n2
             res.innerText = `a soma entre ${n1} e ${n2} é  ${s}` 
-
         }
+
+
+
+
     </script>
 
 </body>
