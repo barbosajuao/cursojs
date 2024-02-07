@@ -23,19 +23,19 @@
 
             if (n == `brasil` || n == `Brasil` || n == `BRASIL`) {
                 res.innerHTML += (`<p>voce e <strong>BRASILEIRO</p></strong>`)
-            }else {
-                if (n == ``) {
+            }else if (n == ``) 
+                  {
                     window.alert('o campo Nacionalidade esta em Branco por favor Digite seu pais de origem!')
 
 
                     location.reload();// aqui esta recarregando a pagina apos aparecer o alert 
 
-                } else {
+                }else {
                     res.innerHTML += (`voce e <strong>ESTRANGEIRO</strong`)
                 }
 
-            }
         }
+        
 
     </script>
 </body>
