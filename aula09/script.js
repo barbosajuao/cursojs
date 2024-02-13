@@ -1,9 +1,16 @@
+
+
+
+
+
+
+
 function carregar(){
     var msg = window.document.getElementById(`msg`)
     var img = window.document.getElementById(`imagem`)
     var data = new Date()
-    var hora = data.getHours()
-   
+    var hora = 18
+    data.getHours()
        
     
     
@@ -17,15 +24,18 @@ function carregar(){
         msg.innerHTML = `<p>Agora são ${hora} horas</p>`
         msg.innerHTML += `<p>Boa tarde</p>`
         img.src = '../aula09/imagens/tarde.jpg'
-        document.body.style.background = `#a5431c`
-        document.getElementById('section').style.background = '#a9451c';
+        document.getElementById('section').style.background = '#b5451c';
+        document.getElementById('fundo').style.background = '#a9451c';
 
     }else{
         img.src = '../aula09/imagens/noite.jpg'
         msg.innerHTML = `<p>Agora são ${hora} horas</p>`
         msg.innerHTML += `<p>Boa noite</p>`
-        document.body.style.background = `#131a34`
+        document.getElementById('fundo').style.background = '#111a45';
+        document.getElementById('section').style.boxShadow = `5px 5px 40px rgba(100, 100, 100)`;
         document.getElementById('section').style.background = '#111a45';
+        document.getElementById('footer').style.color = '#a99a';
+
         
 
     }
