@@ -8,9 +8,9 @@
 function carregar(){
     var msg = window.document.getElementById(`msg`)
     var img = window.document.getElementById(`imagem`)
-    var data = new Date()
-    var hora = 18
-    data.getHours()
+    var data = new Date() // aqui estou pegando a data 
+    var hora = data.getHours() // aqui estou pegando a hora 
+    
        
     
     
@@ -32,8 +32,10 @@ function carregar(){
         msg.innerHTML = `<p>Agora são ${hora} horas</p>`
         msg.innerHTML += `<p>Boa noite</p>`
         document.getElementById('fundo').style.background = '#111a45';
+
         document.getElementById('section').style.boxShadow = `5px 5px 40px rgba(100, 100, 100)`;
         document.getElementById('section').style.background = '#111a45';
+
         document.getElementById('footer').style.color = '#a99a';
 
         
