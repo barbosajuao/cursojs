@@ -13,7 +13,7 @@ function contar(){
          let p = Number(passo.value)
          if (p <= 0){
             res.innerHTML +=`Nao foi possivel efetuar a conta`
-            window.alert`Confira o campo (passo)`
+            window.alert`o campo passo apenas pode ter numeros positivos!`
             
          }else{
             if( i < f){
