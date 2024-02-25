@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
 body{
     width: 100vw;
     height: 1050px;
@@ -6,21 +14,31 @@ body{
 }
 header{
     text-align: center;
+    padding-top: 80px;
+    color: white;
 }
 
 section{
     width: 500px;
     height: 500px;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     background-color: rgb(205, 205, 205);
     margin: auto;
-    box-shadow: 5px 5px 10px rgb(5, 5, 5);
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#flista{
+    width: 200px;
+    background-color: #ffffff;
+    margin-top:20px;
 }
 footer{
-   
+    margin-top: 700px;
     text-align: center;
-    margin-top: 100px;
     font-style: italic;
 }
 .div1{
