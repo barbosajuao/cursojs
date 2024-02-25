@@ -15,7 +15,7 @@ section{
     border-radius: 20px;
     background-color: rgb(205, 205, 205);
     margin: auto;
-    
+    box-shadow: 5px 5px 10px rgb(5, 5, 5);
 }
 footer{
    
